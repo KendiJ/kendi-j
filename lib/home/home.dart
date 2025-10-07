@@ -24,7 +24,7 @@ class _HomePageState extends State<HomePage> {
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
                   color: Colors.teal,
-                  fontSize: 80
+                  fontSize: 80,
                 ),
               ),
               Image.asset("assets/doodles/iG2.png"),
@@ -34,32 +34,72 @@ class _HomePageState extends State<HomePage> {
               ),
               SizedBox(height: 150),
               Text(
-                Texts.still,
+                Texts.interests,
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
                   color: Colors.teal,
-                  fontSize: 80
+                  fontSize: 80,
                 ),
               ),
               Image.asset("assets/doodles/iG3.png"),
-              Text(Texts.interest),
+              Container(
+                padding: EdgeInsets.fromLTRB(200, 0, 200, 0),
+                child: Text(Texts.interest),
+              ),
               SizedBox(height: 150),
               Text(
                 Texts.rest,
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
                   color: Colors.teal,
-                  fontSize: 80
+                  fontSize: 80,
                 ),
               ),
               Image.asset("assets/doodles/iG4.png"),
-              Text(Texts.cows),
+              Container(
+                padding: EdgeInsets.fromLTRB(200, 0, 200, 0),
+                child: Text(Texts.cows),
+              ),
               SizedBox(height: 150),
+
               Row(
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  IconButton(onPressed: () {}, icon: Icon(Icons.abc_outlined))
+                  IconButton(
+                    onPressed: () {},
+                    icon: Image.asset(
+                      'assets/icons/iconY.png',
+                      width: 150,
+                      height: 150,
+                    ),
+                  ),
+                  IconButton(
+                    onPressed: () {},
+                    icon: Image.asset(
+                      'assets/icons/iconL.png',
+                      width: 150,
+                      height: 150,
+                    ),
+                  ),
+                  IconButton(
+                    onPressed: () {},
+                    icon: Image.asset(
+                      'assets/icons/iconM.png',
+                      width: 150,
+                      height: 150,
+                    ),
+                  ),
+                  IconButton(
+                    onPressed: () {},
+                    icon: Image.asset(
+                      'assets/icons/iconS.png',
+                      width: 150,
+                      height: 150,
+                    ),
+                  ),
                 ],
-              )
+              ),
+              SizedBox(height: 150),
             ],
           ),
         ),

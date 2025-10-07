@@ -2,7 +2,7 @@ class Texts {
   static const String intro =
       "Hi! I am Kendi. Welcome to my Bubble of Creativity ✨";
   static const String me =
-      "I am a Software Engineer. I love solving problems using code =)\nBy Day I am a Master Student persuing my Big Girl Degree in Data Science and by night I am a badass Software Engineer.\n                                            I love it here🥳";
+      "I am a Software Engineer. I love solving problems using code =)\nBy Day I am a Master Student pursuing my Big Girl Degree in Data Science and by night I am a badass Software Engineer.\n                                            I love it here🥳";
 
   static const String about = "About Me";
   static const String still = "Still Here 👀";
