@@ -17,4 +17,5 @@ final List<SocialIconData> kSocialIcons = [
   SocialIconData(path: 'assets/icons/iconL.png', url: 'https://www.linkedin.com/in/kendij/'),
   SocialIconData(path: 'assets/icons/iconM.png', url: 'https://medium.com/@kendi_j'),
   SocialIconData(path: 'assets/icons/iconS.png', url: 'https://sessionize.com/kendi-jacqueline/'),
+  SocialIconData(path: 'assets/icons/iconG.png', url: 'https://github.com/KendiJ'),
 ];

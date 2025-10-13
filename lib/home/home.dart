@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:kendy_j/consts/dimentions.dart';
 import 'package:kendy_j/consts/texts.dart';
 import 'package:kendy_j/consts/app_data.dart'; 
@@ -16,7 +17,10 @@ class HomePage extends StatelessWidget {
           child: Column(
             children: [
               Image.asset("assets/doodles/iG1.png"),
-              Text(Texts.intro),
+              Padding(
+                padding: const EdgeInsets.all(20.0),
+                child: Text(Texts.intro, style: GoogleFonts.patrickHand(),),
+              ),
               ContentSection(
                 title: Texts.about,
                 imagePath: "assets/doodles/iG2.png",

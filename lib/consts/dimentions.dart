@@ -11,5 +11,6 @@ const double kDesktopContentPadding = 200.0;
 const kTitleTextStyle = TextStyle(
   fontWeight: FontWeight.bold,
   color: Colors.teal,
-  fontSize: 80, 
+  fontSize: 50, 
+  fontFamily: 'Delius',
 );

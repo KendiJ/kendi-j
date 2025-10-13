@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:kendy_j/consts/dimentions.dart'; 
 
 class ContentSection extends StatelessWidget {
@@ -27,12 +28,12 @@ class ContentSection extends StatelessWidget {
         const SizedBox(height: kSectionSpacing),
         Text(
           title,
-          style: kTitleTextStyle, // Use the shared constant style
+          style: kTitleTextStyle, 
         ),
         Image.asset(imagePath),
         Padding(
           padding: EdgeInsets.symmetric(horizontal: horizontalPadding),
-          child: Text(bodyText),
+          child: Text(bodyText, style: GoogleFonts.patrickHand(),),
         ),
       ],
     );
