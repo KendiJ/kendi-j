@@ -1,6 +1,6 @@
 # kendy_j
 
-A new Flutter project.
+Kendi J.
 
 ## Getting Started
 
