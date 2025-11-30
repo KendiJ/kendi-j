@@ -1,11 +1,11 @@
 {
-    "name": "kendy_j",
-    "short_name": "kendy_j",
+    "name": "Kendi J Portfolio",
+    "short_name": "Kendi J",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "Kendi J.",
+    "description": "Welcome to my Bubble of Creativity.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
