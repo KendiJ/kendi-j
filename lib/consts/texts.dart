@@ -13,7 +13,7 @@ class Texts {
   static const String interests = "My Interests";
 
   static const String interest =
-      "Mountains! I think they are Royal.\nI love tech and my daily tools are Flutter, Python, "
+      "Mountains! I think they are Royal.\nI love tech and my daily tools are SwiftUI, Golang, Python, "
       "lil bit of Go and GCP. AI is exciting too and learning how to build simple, practical "
       "models is my current thrill. Also, I read a lot of books!";
 
