@@ -5,6 +5,7 @@ import 'package:kendy_j/consts/texts.dart';
 import 'package:kendy_j/consts/app_data.dart'; 
 import 'package:kendy_j/widgets/content_section.dart';
 import 'package:kendy_j/widgets/projects_section.dart';
+import 'package:kendy_j/widgets/speaking_section.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -35,6 +36,8 @@ class HomePage extends StatelessWidget {
               ),
 
               const ProjectsSection(),
+
+              const SpeakingSection(),
 
               ContentSection(
                 title: Texts.rest,
