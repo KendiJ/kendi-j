@@ -3,9 +3,10 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:kendy_j/consts/dimentions.dart';
 import 'package:kendy_j/consts/texts.dart';
 import 'package:kendy_j/consts/app_data.dart'; 
-import 'package:kendy_j/widgets/content_section.dart'; 
+import 'package:kendy_j/widgets/content_section.dart';
+import 'package:kendy_j/widgets/projects_section.dart';
 
-class HomePage extends StatelessWidget { 
+class HomePage extends StatelessWidget {
   const HomePage({super.key});
 
 
@@ -32,6 +33,8 @@ class HomePage extends StatelessWidget {
                 imagePath: "assets/doodles/iG3.png",
                 bodyText: Texts.interest,
               ),
+
+              const ProjectsSection(),
 
               ContentSection(
                 title: Texts.rest,

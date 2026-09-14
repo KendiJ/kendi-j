@@ -19,6 +19,7 @@ class Texts {
 
   static const String rest = "Mmmmh what else 🤔";
 
+  static const String projects = "Things I have built";
 
   static const String cows =
       "\"If I wasn't a Dev, I would be somewhere in my cozy home with a few cows, chicken, goats and "
