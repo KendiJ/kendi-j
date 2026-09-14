@@ -18,6 +18,20 @@ class ProjectItem {
 
 final List<ProjectItem> kProjects = [
   const ProjectItem(
+    title: "Homeplants",
+    description:
+        "An indoor plant care and tracking mobile application to keep houseplants thriving.",
+    tags: ["Mobile App", "Plant Care"],
+    statusBadge: "Google Play · Internal Testers",
+  ),
+  const ProjectItem(
+    title: "Homeplants — iOS (Native)",
+    description:
+        "A native SwiftUI rebuild of Homeplants, built to compare cross-platform vs. native architecture against the Flutter version.",
+    tags: ["SwiftUI", "iOS", "Golang", "API"],
+    statusBadge: "Native Counterpart",
+  ),
+  const ProjectItem(
     title: "Plants API",
     description:
         "A plant management and care backend service built purely with Golang and PostgreSQL.",
@@ -25,11 +39,12 @@ final List<ProjectItem> kProjects = [
     statusBadge: "Backend Service",
   ),
   const ProjectItem(
-    title: "Homeplants",
+    title: "FlutterconKE App",
     description:
-        "An indoor plant care and tracking mobile application to keep houseplants thriving.",
-    tags: ["Mobile App", "Plant Care"],
-    statusBadge: "Google Play · Internal Testers",
+        "Open source contributor to the official Flutter Kenya conference app.",
+    tags: ["Flutter", "Open Source", "Contributor"],
+    url: "https://github.com/droidconKE/flutterconKEApp",
+    actionLabel: "View on GitHub",
   ),
   const ProjectItem(
     title: "This Portfolio",
@@ -44,7 +59,7 @@ final List<ProjectItem> kProjects = [
     description:
         "Hands-on machine learning experiments, practical data science models, and notebook explorations.",
     tags: ["Python", "Machine Learning", "Jupyter"],
-    url: "https://github.com/KendiJ/ml_-",
+    url: "https://github.com/KendiJ/ml_playground",
     actionLabel: "View on GitHub",
     statusBadge: "In Progress",
   ),
